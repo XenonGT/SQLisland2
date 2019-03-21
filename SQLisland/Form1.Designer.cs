@@ -53,6 +53,7 @@
             this.btn_exec.BackColor = System.Drawing.Color.LightCoral;
             this.btn_exec.FlatAppearance.BorderSize = 0;
             this.btn_exec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_exec.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_exec.Location = new System.Drawing.Point(731, 508);
             this.btn_exec.Name = "btn_exec";
             this.btn_exec.Size = new System.Drawing.Size(141, 41);
@@ -105,11 +106,12 @@
             // 
             this.lbl_continue.AutoSize = true;
             this.lbl_continue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(50)))));
-            this.lbl_continue.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_continue.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.lbl_continue.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_continue.ForeColor = System.Drawing.Color.Red;
-            this.lbl_continue.Location = new System.Drawing.Point(252, 136);
+            this.lbl_continue.Location = new System.Drawing.Point(243, 136);
             this.lbl_continue.Name = "lbl_continue";
-            this.lbl_continue.Size = new System.Drawing.Size(55, 20);
+            this.lbl_continue.Size = new System.Drawing.Size(64, 24);
             this.lbl_continue.TabIndex = 8;
             this.lbl_continue.Text = "Weiter";
             this.lbl_continue.Click += new System.EventHandler(this.label1_Click);
@@ -152,7 +154,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Location = new System.Drawing.Point(26, 555);
+            this.panel3.Location = new System.Drawing.Point(26, 566);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(846, 45);
             this.panel3.TabIndex = 11;
@@ -160,11 +162,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(200, 13);
+            this.label1.Location = new System.Drawing.Point(158, 16);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(539, 17);
+            this.label1.Size = new System.Drawing.Size(599, 20);
             this.label1.TabIndex = 0;
             this.label1.Text = "Staedte (ID, Name)                     Bewohner (ID, Name, Wohnort, B_alter, Beru" +
     "f, Item)";
