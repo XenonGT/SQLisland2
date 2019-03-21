@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLisland", "SQLisland\SQLisland.csproj", "{D1246DB5-1B14-46CC-9984-649521789A0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1246DB5-1B14-46CC-9984-649521789A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1246DB5-1B14-46CC-9984-649521789A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1246DB5-1B14-46CC-9984-649521789A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1246DB5-1B14-46CC-9984-649521789A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FD2D02C-6FF3-419B-80B3-CE9FCC5BBEFF}
+	EndGlobalSection
+EndGlobal
