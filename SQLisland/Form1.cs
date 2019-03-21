@@ -75,7 +75,7 @@ namespace SQLisland
         {
             if(count == 1)
             {
-                if(tb_exec.Text != "Select * from Bewohner where Wohnort = 2")
+                if(tb_exec.Text != "Select * from Bewohner where Wohnort = 1")
                 {
                     MessageBox.Show("Diese SQL-Abfrage ist falsch!");
                     return;
