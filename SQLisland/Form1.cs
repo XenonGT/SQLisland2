@@ -83,7 +83,7 @@ namespace SQLisland
             }
             else if(count == 2)
             {
-                if(tb_exec.Text != "Select * from Bewohner where Beruf = Detektiv")
+                if(tb_exec.Text != "Select * from Bewohner where Beruf = 'Detektiv'")
                 {
                     MessageBox.Show("Diese SQL-Abfrage ist falsch!");
                     return;
@@ -91,7 +91,7 @@ namespace SQLisland
             }
             else if(count == 3)
             {
-                if(tb_exec.Text != "Select * from Bewohner where Item = Notizbuch")
+                if(tb_exec.Text != "Select * from Bewohner where Item = 'Notizbuch'")
                 {
                     MessageBox.Show("Falsch");
                     return;
