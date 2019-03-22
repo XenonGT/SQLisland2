@@ -193,7 +193,7 @@
             this.Controls.Add(this.tb_exec);
             this.Controls.Add(this.btn_exec);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SQLisland";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);

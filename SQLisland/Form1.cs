@@ -63,6 +63,8 @@ namespace SQLisland
             {
                 lbl_continue.Visible = false;
                 lbl_mIndex.Text = "/";
+                btn_exec.Enabled = true;
+                tb_exec.Text = "Freier Modus";
                 return;
             }
             count++;
